@@ -1,5 +1,8 @@
-node_modules
-.wrangler
-dist
-.env
-.dev.vars
+node_modules/
+dist/
+.wrangler/
+.env*
+.dev.vars*
+*.pem
+*.key
+.DS_Store
