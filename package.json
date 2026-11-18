@@ -1,0 +1,20 @@
+{
+  "name": "ieadpg-media",
+  "version": "1.0.0",
+  "description": "Microsserviço de Armazenamento e Streaming de Mídia da IEADPG (Cloudflare Workers, Hono, R2)",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.7.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "typescript": "^5.7.3",
+    "wrangler": "^3.111.0"
+  }
+}

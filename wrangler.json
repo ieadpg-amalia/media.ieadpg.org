@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ieadpg-media",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-15",
+  "routes": [
+    {
+      "pattern": "media.ieadpg.org/*",
+      "zone_name": "ieadpg.org"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA_BUCKET",
+      "bucket_name": "ieadpg"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
