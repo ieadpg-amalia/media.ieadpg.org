@@ -3,6 +3,7 @@
   "name": "ieadpg-media",
   "main": "src/index.ts",
   "compatibility_date": "2026-09-15",
+  "workers_dev": true,
   "routes": [
     {
       "pattern": "media.ieadpg.org/*",
